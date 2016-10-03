@@ -9,7 +9,6 @@ angular.module('confusionApp')
         $scope.dishes = menuFactory.getDishes();
 
 
-        $scope.dishes = dishes;
 
         $scope.toggleDetails = function () {
             $scope.showDetails = !$scope.showDetails;
